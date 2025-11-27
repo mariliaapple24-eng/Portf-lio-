@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Marília</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: #222;
+      border-bottom: 2px solid #222;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marília Almeida</h1>
+    <p>Desenvolvedora Front-End | Entusiasta em Tecnologia e Design</p>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou apaixonada por desenvolvimento web e estou sempre buscando aprender novas tecnologias. Tenho experiência com HTML, CSS, JavaScript e estou expandindo meus conhecimentos em frameworks modernos.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto 1. O que ele faz, tecnologias usadas.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+      <div class="project">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto 2. O que ele faz, tecnologias usadas.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+      <!-- Você pode duplicar .project para novos projetos -->
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:seuemail@gmail.com">seuemail@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/seulinkedin" target="_blank">linkedin.com/in/seulinkedin</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Marília Almeida</p>
+  </footer>
+</body>
+</html>
